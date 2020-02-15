@@ -28,13 +28,13 @@ section {
 #left {
   float: left;
   display: inline-block;
-  background-color: black; 
+  background-color: #666; 
   width: 33%;
 }
 
 #middle {
   display: inline-block;
-  background-color: darkgray; 
+  background-color: #888; 
   width: 34%;
   
 }
@@ -42,7 +42,7 @@ section {
 #right {
   float: right;
   display: inline-block;
-  background-color: black;
+  background-color: #666;
   width: 33%;
 }
 
@@ -54,14 +54,16 @@ section {
   background-color: #6ea3da;
   margin-bottom: 80px;
   padding: 20px;
+  margin-top: 20px;
 }
 
 aside {
   background-color: #fff;
-  height: 20vh;
+  height: 25vh;
   width: 20%;
   margin-left: 20px;
   position: absolute;
+  padding: 20px;
 }
 
 footer {
