@@ -100,17 +100,19 @@ main {
     background-color: #2589bd;
 }
 
-.benefit {
+/*changed text from benefit to benefits*/
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit h3 {
+/*heading has been delevated from h2 to h3*/
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -121,7 +123,7 @@ main {
 .service {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    /*Removed the height for this selector, default height of this element is 576 pixels*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -131,6 +133,7 @@ main {
     max-height: 200px;
 }
 
+/*heading has been elevated from h3 to h2*/
 .service h2 {
     margin-bottom: 20px;
     font-size: 36px;
