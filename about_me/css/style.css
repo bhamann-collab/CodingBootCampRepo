@@ -5,12 +5,17 @@
 }
 
 body {
-    background-color: #d9dcd6;
-    font-family: 'Trebuchet MS';
+    background-color: #AFD275;
+    font-family: 'Soulmaze';
+    overflow-x: hidden;
 }
 
 header h1 {
     display: inline-block;
+    color: #7E685A;
+    font-size: 70px;
+    margin-left: 10px;
+   
 }
 
 header nav {
@@ -19,15 +24,27 @@ header nav {
 
 header nav ul {
     font-size: 20px;
+    margin-right: 5px;
 }
 
 header nav ul li {
     display: inline-block;
+    transition: all .2s ease-in-out;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #7E685A;
+    margin: 0 5px;
+}
+
+header nav ul li:hover {
+    transform: scale(1.1);
 }
 
 
 main {
-    background-color: #003366;
+    background-color: #AFD275;
     width: 80%;
     height: 800px;
     display: inline-block;
@@ -37,7 +54,6 @@ main {
 aside {
     width: 20%;
     height: 800px;
-    background-color: #003366;
     float: right;
 }
 
@@ -47,13 +63,26 @@ aside {
 }
 
 .circle {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    background-color: #d9dcd6; 
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+    background: #AFD275;
+    box-shadow:  20px 20px 22px #95b363, 
+                 -20px -20px 22px #c9f287;
+    margin: 0 auto;
+    
+}
+
+.circle img {
+    max-width: 400px;
+    max-height: 300px;
+    border-radius: 50px;
 }
 
 .aside {
     border-left: 5px;
     border-color: white;
 }
+
+
+@font-face { font-family: 'Soulmaze'; src: url('../MADE_Soulmaze_PERSONAL_USE.otf'); } 
