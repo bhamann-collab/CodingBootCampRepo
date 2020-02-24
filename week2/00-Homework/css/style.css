@@ -1,2 +1,44 @@
-.navbar-toggler {
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+    background-color: #afd275;
+    color: #7E685A;
+}
+
+a {
+    color: inherit;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #7E685A;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em;
+    font-size: 25px;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler-icon {
+    color: #7E685A;
 }
