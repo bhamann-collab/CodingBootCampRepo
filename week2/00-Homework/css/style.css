@@ -5,6 +5,7 @@ body {
     font-family: 'roboto';
     background-color: #afd275;
     color: #7E685A;
+    overflow-x: hidden;
 }
 
 a {
@@ -41,4 +42,25 @@ a {
 
 .navbar-toggler-icon {
     color: #7E685A;
+}
+
+.profile {
+    margin-top: 150px;
+}
+
+.profilePhoto {
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+    background: #AFD275;
+    box-shadow:  20px 20px 22px #95b363, 
+                 -20px -20px 22px #c9f287;
+    margin: 0 auto;
+    
+}
+
+.profilePhoto img {
+    max-width: 400px;
+    max-height: 300px;
+    border-radius: 50px;
 }
