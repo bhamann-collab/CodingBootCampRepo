@@ -6,7 +6,7 @@ body {
     background-color: #afd275;
     color: #7E685A;
     overflow-x: hidden;
-    height: 1000px;
+    height: 2000px;
 }
 
 a {
@@ -70,9 +70,9 @@ a {
     background-color: azure;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
-    width: 100%;
     margin-top: 100px;
     min-height: 300px;
+
 }
 
 .aboutMe h2,p {
