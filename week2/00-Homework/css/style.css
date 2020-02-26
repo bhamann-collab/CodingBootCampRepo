@@ -6,6 +6,7 @@ body {
     background-color: #afd275;
     color: #7E685A;
     overflow-x: hidden;
+    height: 1000px;
 }
 
 a {
@@ -63,4 +64,26 @@ a {
     max-width: 400px;
     max-height: 300px;
     border-radius: 50px;
+}
+
+.aboutMe {
+    background-color: azure;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    width: 100%;
+    margin-top: 100px;
+    min-height: 300px;
+}
+
+.aboutMe h2,p {
+    color: black;
+    padding: 20px 0 0 35px;
+}
+
+.aboutMe h2 {
+    font-size: 2rem;
+}
+
+.aboutMe p {
+    font-size: 1.5rem;
 }
