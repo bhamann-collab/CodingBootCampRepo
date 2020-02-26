@@ -9,6 +9,10 @@ body {
     height: 2000px;
 }
 
+.navbar {
+    background-color: #7E685A;
+}
+
 a {
     color: inherit;
 }
@@ -16,25 +20,22 @@ a {
 .navbar-brand {
     font-size: 40px;
     font-weight: bold;
+    
 }
 
-.navbar-brand:hover {
-    color: black;
+.navbar-brand:hover, .nav-link:hover {
+    color: #E7717D;
 }
 
 .nav-link,
 .navbar-brand {
-    color: #7E685A;
     cursor: pointer;
+    color: #C2CAD0;
 }
 
 .nav-link {
     margin-right: 1em;
     font-size: 25px;
-}
-
-.nav-link:hover {
-    color: #000;
 }
 
 .navbar-collapse {
@@ -56,7 +57,7 @@ a {
     background: #AFD275;
     box-shadow:  20px 20px 22px #95b363, 
                  -20px -20px 22px #c9f287;
-    margin: 0 auto;
+    margin: 40px auto;
     
 }
 
@@ -68,10 +69,12 @@ a {
 
 .aboutMe {
     background-color: azure;
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
-    margin-top: 100px;
+    border-radius: 50px;
     min-height: 300px;
+    min-width: 400px;
+    box-shadow:  20px 20px 22px #95b363, 
+                 -20px -20px 22px #c9f287;
+    margin: 0 20px;
 
 }
 
