@@ -5,8 +5,9 @@ body {
     font-family: 'roboto';
     background-color: #afd275;
     color: #7E685A;
-    overflow-x: hidden;
     height: 2000px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -68,6 +69,7 @@ a {
 }
 
 .aboutMe {
+    float: center;
     background-color: azure;
     border-radius: 50px;
     min-height: 300px;
@@ -89,4 +91,17 @@ a {
 
 .aboutMe p {
     font-size: 1.5rem;
+}
+
+.Portfolio h1{
+    font-size: 100px;
+    margin-top: 200px;
+}
+
+.insidePortfolio {
+    float: center;
+    background-color: azure;
+    border-radius: 50px;
+    width: 100%;
+    height: 200px;
 }
